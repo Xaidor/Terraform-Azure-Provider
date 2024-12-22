@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 resource "azurerm_resource_group" "default_rg" {
   name     = "practice-resource-group"
   location = "var.region"
 }
 
+=======
+>>>>>>> 620694d (modified resources)
 resource "azurerm_virtual_network" "my_vpn" {
   name                = "custom-network"
   location            = azurerm_resource_group.default_rg.location
